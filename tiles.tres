@@ -1,0 +1,226 @@
+[gd_resource type="TileSet" load_steps=27 format=1]
+
+[ext_resource path="res://tiles/1.png" type="Texture" id=1]
+[ext_resource path="res://tiles/3.png" type="Texture" id=2]
+[ext_resource path="res://tiles/16.png" type="Texture" id=3]
+[ext_resource path="res://tiles/17.png" type="Texture" id=4]
+[ext_resource path="res://tiles/18.png" type="Texture" id=5]
+[ext_resource path="res://tiles/4.png" type="Texture" id=6]
+[ext_resource path="res://tiles/6.png" type="Texture" id=7]
+[ext_resource path="res://tiles/10.png" type="Texture" id=8]
+[ext_resource path="res://tiles/5.png" type="Texture" id=9]
+[ext_resource path="res://tiles/8.png" type="Texture" id=10]
+[ext_resource path="res://tiles/2.png" type="Texture" id=11]
+[ext_resource path="res://tiles/7.png" type="Texture" id=12]
+[ext_resource path="res://tiles/11.png" type="Texture" id=13]
+[ext_resource path="res://tiles/13.png" type="Texture" id=14]
+[ext_resource path="res://tiles/14.png" type="Texture" id=15]
+[ext_resource path="res://tiles/15.png" type="Texture" id=16]
+[ext_resource path="res://tiles/9.png" type="Texture" id=17]
+[ext_resource path="res://tiles/12.png" type="Texture" id=18]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 46 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 46 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 46 )
+
+[resource]
+
+0/name = "Floor1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 128, 128 )
+0/occluder_offset = Vector2( 64, 64 )
+0/navigation_offset = Vector2( 64, 64 )
+0/shape_offset = Vector2( 64, 64 )
+0/shapes = [ SubResource( 1 ) ]
+1/name = "Floor2"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 128, 128 )
+1/occluder_offset = Vector2( 64, 64 )
+1/navigation_offset = Vector2( 64, 64 )
+1/shape_offset = Vector2( 64, 64 )
+1/shapes = [ SubResource( 2 ) ]
+2/name = "Floor3"
+2/texture = ExtResource( 11 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 128, 128 )
+2/occluder_offset = Vector2( 64, 64 )
+2/navigation_offset = Vector2( 64, 64 )
+2/shape_offset = Vector2( 64, 64 )
+2/shapes = [ SubResource( 3 ) ]
+3/name = "Floor4"
+3/texture = ExtResource( 12 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 128, 128 )
+3/occluder_offset = Vector2( 64, 64 )
+3/navigation_offset = Vector2( 64, 64 )
+3/shape_offset = Vector2( 64, 64 )
+3/shapes = [ SubResource( 4 ) ]
+4/name = "Floor5"
+4/texture = ExtResource( 13 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 128, 128 )
+4/occluder_offset = Vector2( 64, 64 )
+4/navigation_offset = Vector2( 64, 64 )
+4/shape_offset = Vector2( 64, 64 )
+4/shapes = [ SubResource( 5 ) ]
+5/name = "Platform1"
+5/texture = ExtResource( 14 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 128, 93 )
+5/occluder_offset = Vector2( 64, 46.5 )
+5/navigation_offset = Vector2( 64, 46.5 )
+5/shape_offset = Vector2( 64, 46.5 )
+5/shapes = [ SubResource( 6 ) ]
+6/name = "Platform2"
+6/texture = ExtResource( 15 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 128, 93 )
+6/occluder_offset = Vector2( 64, 46.5 )
+6/navigation_offset = Vector2( 64, 46.5 )
+6/shape_offset = Vector2( 64, 46.5 )
+6/shapes = [ SubResource( 7 ) ]
+7/name = "Platform3"
+7/texture = ExtResource( 16 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 128, 93 )
+7/occluder_offset = Vector2( 64, 46.5 )
+7/navigation_offset = Vector2( 64, 46.5 )
+7/shape_offset = Vector2( 64, 46.5 )
+7/shapes = [ SubResource( 8 ) ]
+8/name = "Bottom1"
+8/texture = ExtResource( 17 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 128, 128 )
+8/occluder_offset = Vector2( 64, 64 )
+8/navigation_offset = Vector2( 64, 64 )
+8/shape_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+9/name = "Bottom2"
+9/texture = ExtResource( 18 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 128, 128 )
+9/occluder_offset = Vector2( 64, 64 )
+9/navigation_offset = Vector2( 64, 64 )
+9/shape_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+10/name = "Bottom3"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 128, 128 )
+10/occluder_offset = Vector2( 64, 64 )
+10/navigation_offset = Vector2( 64, 64 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+11/name = "Wave"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 29 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 128, 99 )
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+12/name = "Water"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 128, 128 )
+12/occluder_offset = Vector2( 64, 64 )
+12/navigation_offset = Vector2( 64, 64 )
+12/shape_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+13/name = "Side1"
+13/texture = ExtResource( 6 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 129, 129 )
+13/occluder_offset = Vector2( 64.5, 64.5 )
+13/navigation_offset = Vector2( 64.5, 64.5 )
+13/shape_offset = Vector2( 0, 0 )
+13/shapes = [  ]
+14/name = "Side2"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 128, 128 )
+14/occluder_offset = Vector2( 64, 64 )
+14/navigation_offset = Vector2( 64, 64 )
+14/shape_offset = Vector2( 0, 0 )
+14/shapes = [  ]
+15/name = "Earth1"
+15/texture = ExtResource( 8 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 128, 128 )
+15/occluder_offset = Vector2( 64, 64 )
+15/navigation_offset = Vector2( 64, 64 )
+15/shape_offset = Vector2( 0, 0 )
+15/shapes = [  ]
+16/name = "Earth2"
+16/texture = ExtResource( 9 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 128, 128 )
+16/occluder_offset = Vector2( 64, 64 )
+16/navigation_offset = Vector2( 64, 64 )
+16/shape_offset = Vector2( 0, 0 )
+16/shapes = [  ]
+17/name = "Earth3"
+17/texture = ExtResource( 10 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 128, 128 )
+17/occluder_offset = Vector2( 64, 64 )
+17/navigation_offset = Vector2( 64, 64 )
+17/shape_offset = Vector2( 0, 0 )
+17/shapes = [  ]
+

@@ -1,0 +1,79 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://about.gd" type="Script" id=1]
+[ext_resource path="res://abo.jpg" type="Texture" id=2]
+[ext_resource path="res://parallax-mountain-mountains.png" type="Texture" id=3]
+
+[node name="about" type="Node"]
+
+script/script = ExtResource( 1 )
+
+[node name="abo" type="Sprite" parent="."]
+
+transform/pos = Vector2( 509.852, 289.785 )
+transform/scale = Vector2( 0.786854, 0.808057 )
+texture = ExtResource( 2 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+
+rect/scale = Vector2( 1.25, 1.25 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 509.0
+margin/top = 20.0
+margin/right = 899.0
+margin/bottom = 304.0
+custom_colors/default_color = Color( 0.0600586, 0.395699, 0.640625, 1 )
+custom_colors/selection_color = Color( 0.0375519, 0.417969, 0.409053, 1 )
+custom_colors/font_color_selected = Color( 0.550781, 0.494775, 0.0387268, 1 )
+bbcode/enabled = false
+bbcode/bbcode = "											CREADITS
+				PULIMURUGAN(servival game)
+				Thanks for ieee to give us an opertunity of making this game and this game.
+				
+				Developer team
+					Kamal Johnson
+					Sujin S
+				
+				User Interface
+					Shashank Babu
+					Nexgo
+				Music 	
+					Sooryaduth
+					Reshma Koshi
+				Designing team
+					Abhijith K
+					Aeon Graphics		
+				
+				also vist:
+						https://github.com/shashank-sj
+						 www.csworksbysj.blogspot.in"
+visible_characters = -1
+
+[node name="Button" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 617.0
+margin/top = 420.0
+margin/right = 668.0
+margin/bottom = 440.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "BACK"
+flat = false
+
+[node name="parallax-mountain-mountains" type="Sprite" parent="."]
+
+transform/pos = Vector2( 511.84, 456.991 )
+transform/scale = Vector2( 1.89215, 1.86514 )
+texture = ExtResource( 3 )
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+
+

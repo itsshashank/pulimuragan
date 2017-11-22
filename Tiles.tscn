@@ -1,0 +1,322 @@
+[gd_scene load_steps=28 format=1]
+
+[ext_resource path="res://tiles/1.png" type="Texture" id=1]
+[ext_resource path="res://tiles/3.png" type="Texture" id=2]
+[ext_resource path="res://tiles/2.png" type="Texture" id=3]
+[ext_resource path="res://tiles/7.png" type="Texture" id=4]
+[ext_resource path="res://tiles/11.png" type="Texture" id=5]
+[ext_resource path="res://tiles/13.png" type="Texture" id=6]
+[ext_resource path="res://tiles/14.png" type="Texture" id=7]
+[ext_resource path="res://tiles/15.png" type="Texture" id=8]
+[ext_resource path="res://tiles/9.png" type="Texture" id=9]
+[ext_resource path="res://tiles/12.png" type="Texture" id=10]
+[ext_resource path="res://tiles/16.png" type="Texture" id=11]
+[ext_resource path="res://tiles/17.png" type="Texture" id=12]
+[ext_resource path="res://tiles/18.png" type="Texture" id=13]
+[ext_resource path="res://tiles/4.png" type="Texture" id=14]
+[ext_resource path="res://tiles/6.png" type="Texture" id=15]
+[ext_resource path="res://tiles/10.png" type="Texture" id=16]
+[ext_resource path="res://tiles/5.png" type="Texture" id=17]
+[ext_resource path="res://tiles/8.png" type="Texture" id=18]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 64 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 46 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 46 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 64, 46 )
+
+[sub_resource type="AudioStreamMPC" id=9]
+
+
+[node name="Tiles" type="Node"]
+
+[node name="Floor1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 64 )
+texture = ExtResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor1"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor1/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Floor2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 320, 64 )
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor2"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 2 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor2/StaticBody2D"]
+
+shape = SubResource( 2 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Floor3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 576, 64 )
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor3"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 3 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor3/StaticBody2D"]
+
+shape = SubResource( 3 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Floor4" type="Sprite" parent="."]
+
+transform/pos = Vector2( 1088, 64 )
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor4"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 4 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor4/StaticBody2D"]
+
+shape = SubResource( 4 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Floor5" type="Sprite" parent="."]
+
+transform/pos = Vector2( 832, 64 )
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Floor5"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 5 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor5/StaticBody2D"]
+
+shape = SubResource( 5 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Platform1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 814 )
+texture = ExtResource( 6 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Platform1"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 6 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform1/StaticBody2D"]
+
+shape = SubResource( 6 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Platform2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 320, 814 )
+texture = ExtResource( 7 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Platform2"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 7 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2/StaticBody2D"]
+
+shape = SubResource( 7 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Platform3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 576, 814 )
+texture = ExtResource( 8 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Platform3"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 8 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform3/StaticBody2D"]
+
+shape = SubResource( 8 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Bottom1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 320 )
+texture = ExtResource( 9 )
+
+[node name="Bottom2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 320, 320 )
+texture = ExtResource( 10 )
+
+[node name="Bottom3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 576, 320 )
+texture = ExtResource( 11 )
+
+[node name="Wave" type="Sprite" parent="."]
+
+transform/pos = Vector2( 256, 1276.91 )
+texture = ExtResource( 12 )
+centered = false
+offset = Vector2( 0, 29 )
+
+[node name="Water" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 1344 )
+texture = ExtResource( 13 )
+
+[node name="Side1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 576 )
+texture = ExtResource( 14 )
+
+[node name="Side2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 320, 576 )
+texture = ExtResource( 15 )
+
+[node name="Earth1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 1088 )
+texture = ExtResource( 16 )
+
+[node name="Earth2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 320, 1088 )
+texture = ExtResource( 17 )
+
+[node name="Earth3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 576, 1088 )
+texture = ExtResource( 18 )
+
+[node name="StreamPlayer" type="StreamPlayer" parent="."]
+
+stream/stream = SubResource( 9 )
+stream/play = false
+stream/loop = true
+stream/volume_db = 3.0
+stream/autoplay = true
+stream/paused = false
+stream/loop_restart_time = 0.0
+stream/buffering_ms = 500
+
+
