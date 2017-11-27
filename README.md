@@ -3,7 +3,7 @@ The Hunters Game
 
 A game builed for Hackathon at isqip2017 with godot game engine
 
-[![Theme](/title.png)]
+[![Main Theme](/title.png)](http://github.com/shashank-sj/pulimuragan)
 
 ## Contributors
 
